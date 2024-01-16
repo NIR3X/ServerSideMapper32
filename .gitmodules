@@ -1,0 +1,3 @@
+[submodule "client/HttpRequest.cpp"]
+	path = client/HttpRequest.cpp
+	url = https://github.com/NIR3X/HttpRequest.cpp
