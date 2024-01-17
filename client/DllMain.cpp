@@ -20,7 +20,7 @@ DWORD WINAPI mainThread(LPVOID lpParam){
 		return 1;
 	}
 
-	std::vector<uint8_t> processedData;
+	std::vector<uint8_t> processedData = {};
 	if (!CServerSideMapper32::ProcessData(mmapData, processedData)) {
 		MessageBoxA(NULL, "Failed to process mmap data", "Error", MB_OK);
 	}
