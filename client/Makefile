@@ -18,4 +18,4 @@ http_request:
 
 clean:
 	$(MAKE) -C HttpRequest.cpp clean
-	rm -f $(OBJ) $(DEST) $(TEST_DEST)
+	rm -f $(OBJ) $(DEST)
